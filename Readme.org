@@ -1,4 +1,24 @@
-#+TITLE: Vote Condorsey
+#+TITLE: Vote Condorset
 
 * But
-Créer une application web de vote avec la méthode de Condorsey.
+Créer une application web de [[https://fr.wikipedia.org/wiki/Scrutin_de_Condorcet_randomis%25C3%25A9][Scrutin de Condorset Randomisé]].
+
+#+BEGIN_QUOTE
+Le scrutin de Condorcet randomisé est un système de vote. Il s'agit d'une
+méthode de Condorcet, ce qui signifie qu'il élit les vainqueurs de Condorcet,
+lorsque ceux-ci existent. Dans le cas contraire, ce scrutin résout le paradoxe
+de Condorcet en choisissant l'élu selon une loi de probabilité parmi un
+sous-ensemble de candidats de tête.
+
+Ce système est connu en anglais sous le nom de méthode du Bipartisan set à cause
+d'une analogie avec les plate-formes électorales sur lesquelles pourrait
+s'accorder des partis politiques cherchant à gagner le vote des électeurs. Il
+est quelquefois appelé en Français méthode bipartiludique.
+
+Ce système a plusieurs propriétés intéressantes du point de vue de la théorie du
+choix social en général et en particulier à propos de la question du vote
+stratégique des électeurs qui en font une méthode particulièrement robuste au
+vote stratégique et « démocratique » en ce qu'il désigne le vainqueur de
+Condorcet lorsqu'il y en a un.
+#+END_QUOTE
+
