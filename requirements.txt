@@ -1,1 +1,2 @@
 Django==2.1.1
+Psycopg2==2.7.5

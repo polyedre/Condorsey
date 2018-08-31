@@ -35,9 +35,9 @@ voter qu'une fois par vote.
 
 Il faut un schéma.
 
-*** TODO Créer la base de donnée en MySQL
+*** TODO Créer la base de donnée en PostgreSQL
 
-On prend MYSQL par rapport à ce tutoriel [[https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django][OpenClasseroom]].
+On prend PostgreSQL par rapport à ce tutoriel [[https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django][OpenClasseroom]].
 
 ** Structure d'un vote
 
@@ -64,3 +64,15 @@ Une page d'accueil listant les différents scrutins disponibles.
 Une page par scrutin pour pouvoir lire la description et voter.
 
 ** TODO L'algorithme
+
+* Pour travailler sur le projet
+
+Procédures :
+
+ 1. Lancez l'environnement virtuel python en executant la commande depuis le
+   dossier racine du projet :
+   =source env/bin/activate=
+ 2. Installer les modules python :
+   =pip install -r requirements.txt=
+
+
