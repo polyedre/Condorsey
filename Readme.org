@@ -1,0 +1,4 @@
+#+TITLE: Vote Condorsey
+
+* But
+Créer une application web de vote avec la méthode de Condorsey.
