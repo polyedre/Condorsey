@@ -1,5 +1,5 @@
 #+TITLE: Vote Condorset
-
+#+STARTUP: indent
 * But
 Créer une application web de [[https://fr.wikipedia.org/wiki/Scrutin_de_Condorcet_randomis%25C3%25A9][Scrutin de Condorset Randomisé]].
 
@@ -22,3 +22,45 @@ vote stratégique et « démocratique » en ce qu'il désigne le vainqueur de
 Condorcet lorsqu'il y en a un.
 #+END_QUOTE
 
+* Organisation
+** Utilisateurs
+
+   Tous les utilisateurs de ce site devront avoir un compte pour pouvoir voter.
+Il nous faut donc une =base de donnée=. 
+Comme l'objectif est de faire un truc démocratic, chaque utilisateur ne pourra
+voter qu'une fois par vote.
+
+** Base de donnée
+*** TODO Structure
+
+Il faut un schéma.
+
+*** TODO Créer la base de donnée en MySQL
+
+On prend MYSQL par rapport à ce tutoriel [[https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django][OpenClasseroom]].
+
+** Structure d'un vote
+
+Les votes sont créés par des utilisateurs connectés, et leurs sont associés à
+leur créateur.
+
+Prodédure de création d'un vote :
+
+  1. Entrer un _sujet de vote_.
+  2. Choisir le type candidature.
+     1. Soit l'utilisateur crée ses candidats.
+     2. Soit il laisse les candidats se présenter.
+  3. Poster le vote.
+     1. En publique.
+     2. En privé. (Plus tard)
+  
+*** Les candidats
+
+Les candidats peuvent être fictifs (ils ne seront alors qu'un mot) ou un utilisateur.
+
+** Structure du site
+
+Une page d'accueil listant les différents scrutins disponibles.
+Une page par scrutin pour pouvoir lire la description et voter.
+
+** TODO L'algorithme
